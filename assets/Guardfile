@@ -9,11 +9,6 @@ end
 #   watch(%r{src/coffeescript/(.+\.coffee)})
 # end
 
-# guard 'process', :name => 'shrink-images', :command => 'ruby src/resize-mobile-images.rb mobileretina' do
-#   #watch /^images\/mobileretina\/.+/
-#   watch(%r{assets/retina/.+/})
-# end
-
 # reload the browser when assets change
 guard 'livereload' do
   watch(%r{assets/templates/.+\.(php|html)})
