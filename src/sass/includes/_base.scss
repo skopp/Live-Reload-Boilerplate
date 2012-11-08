@@ -1,0 +1,104 @@
+  /////////////////////
+ // Color Variables //
+/////////////////////
+
+
+
+
+
+  //////////
+ // Misc //
+//////////
+
+$default-border-radius: 5px;
+
+  /////////////////////////
+ // Box Shadow Settings //
+/////////////////////////
+$default-box-shadow-color: #000 + 20;
+$default-box-shadow-h-offset: 0px;
+$default-box-shadow-v-offset: 0px;
+$default-box-shadow-blur: 10px;
+$default-box-shadow-spread: 3px;
+$default-box-shadow-inset:false;
+
+
+  /////////////////////////////////
+ // HTML 5 Boilerplate Settings //
+/////////////////////////////////
+
+$line-height: 1.4 !default;
+$font-color: #222 !default;
+$font-family: sans-serif !default;
+$font-size: 1em !default;
+$link-color: #00e !default;
+$link-hover-color: #06e !default;
+$link-visited-color: #551a8b !default;
+$selected-font-color: #fff !default;
+$selected-background-color: #fe57a1 !default;
+$invalid-background-color: #f0dddd !default;
+  /////////////
+ // Imports //
+/////////////
+@import "compass",
+        "media-queries",
+        "h5bp";
+
+  /////////////////////////////
+ // Typography & Font Faces //
+/////////////////////////////
+$base-font-size: 15px;
+$base-line-height: 22px;
+@include establish-baseline;
+
+//@include font-face("Example",
+//        font-files("Example-webfont.eot",
+//            "Example-webfont.svg",
+//            "Example-webfont.ttf",
+//           "Example-webfont.woff"),
+//        "Example-webfont.eot",
+//        normal,
+//        normal);
+//
+
+
+
+  /////////////
+ // Sprites //
+/////////////
+
+//$example-layout:smart;
+//@import "example/*.png";
+
+  //////////////////////////////
+ // Html5 Boilerplate Styles //
+//////////////////////////////
+@include h5bp-normalize;
+@include h5bp-chromeframe;
+@include h5bp-media;
+
+  ////////////
+ // Mixins //
+////////////
+
+@mixin clearfix {
+  &:before,
+  &:after {
+    content: "";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+  *zoom:1;
+}
+  /////////////////
+ // Misc Styles //
+/////////////////
+img,
+embed,
+object {
+    max-width: 100%;
+    height: auto;
+}
+
