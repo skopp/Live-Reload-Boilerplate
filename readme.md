@@ -1,5 +1,5 @@
 #LiveReload Boilerplate
-The purpose of LiveReload Boilerplate is to provide a solid starting point for projects and designing in the browser. 
+The purpose of LiveReload Boilerplate is to provide a solid starting point for projects and designing in the browser. It was inspired by this blog post by [Doug Avery](http://viget.com/extend/case-study-ruby-tools-for-non-ruby-projects)
 
 Uses code from:
  * [HTML5 Boilerplate](https://github.com/h5bp/html5-boilerplate)
