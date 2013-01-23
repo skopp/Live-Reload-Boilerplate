@@ -15,7 +15,7 @@ Uses code from:
 
 Ensure that you have ruby installed and available from the command line.
 
-Navigate to the projects asset directory and run the following command:
+Navigate to the projects root directory and run the following command:
 
 	bundle install
 
